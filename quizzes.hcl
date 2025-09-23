@@ -1,0 +1,3 @@
+resource "quiz" "dfdfdfwefeeefewefwef" {
+  questions = []
+}
