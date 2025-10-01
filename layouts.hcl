@@ -1,7 +1,8 @@
 
+
 resource "layout" "single_panel" {
   column {
-    width = "100"
+    width = "17"
     tab "terminal1" {
       title  = "terminal1"
       target = resource.terminal.terminal1
@@ -9,5 +10,20 @@ resource "layout" "single_panel" {
     instructions {
       title = "Instructions"
     }
+  }
+  column {
+    width = "17"
+  }
+  column {
+    width = "17"
+  }
+  column {
+    width = "17"
+  }
+  column {
+    width = "17"
+  }
+  column {
+    width = "17"
   }
 }
