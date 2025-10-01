@@ -27,3 +27,6 @@ resource "layout" "single_panel" {
     width = "17"
   }
 }
+
+resource "layout" "layout_1" {
+}
