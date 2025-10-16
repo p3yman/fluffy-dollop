@@ -9,7 +9,8 @@ resource "page" "installation" {
   file  = "instructions/__default/installation.md"
 }
 
-resource "page" "untitled-page-1" {
-  title = "Untitled page 1"
-  file  = "instructions/__default/untitled-page-1.md"
+
+resource "page" "start-the-server" {
+  title = "Start the server"
+  file  = "instructions/__default/start-the-server.md"
 }
