@@ -22,6 +22,10 @@ resource "lab" "main" {
         title     = "Test the server"
         reference = resource.page.test-the-server
       }
+      page "deploy" {
+        title     = "Deploy"
+        reference = resource.page.deploy
+      }
     }
   }
 }

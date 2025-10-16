@@ -19,3 +19,8 @@ resource "page" "test-the-server" {
   title = "Test the server"
   file  = "instructions/__default/test-the-server.md"
 }
+
+resource "page" "deploy" {
+  title = "Deploy"
+  file  = "instructions/__default/deploy.md"
+}
