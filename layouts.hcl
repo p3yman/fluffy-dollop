@@ -11,3 +11,6 @@ resource "layout" "single_panel" {
     }
   }
 }
+
+resource "layout" "layout_1" {
+}
