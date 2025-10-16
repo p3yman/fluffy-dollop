@@ -1,0 +1,1 @@
+![Screenshot 2025-09-01 at 13.35.59.png](/assets/Screenshot%202025-09-01%20at%2013.35.59.png)<a href="/assets/example.md" target="_blank">example.md</a>
