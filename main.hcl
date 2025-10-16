@@ -26,6 +26,10 @@ resource "lab" "main" {
         title     = "Deploy"
         reference = resource.page.deploy
       }
+      page "review" {
+        title     = "Review"
+        reference = resource.page.review
+      }
     }
   }
 }

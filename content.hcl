@@ -24,3 +24,8 @@ resource "page" "deploy" {
   title = "Deploy"
   file  = "instructions/__default/deploy.md"
 }
+
+resource "page" "review" {
+  title = "Review"
+  file  = "instructions/__default/review.md"
+}
