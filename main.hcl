@@ -18,6 +18,10 @@ resource "lab" "main" {
         title     = "Start the server"
         reference = resource.page.start-the-server
       }
+      page "test-the-server" {
+        title     = "Test the server"
+        reference = resource.page.test-the-server
+      }
     }
   }
 }
