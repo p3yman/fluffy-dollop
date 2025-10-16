@@ -10,6 +10,10 @@ resource "lab" "main" {
         title     = "Introduction"
         reference = resource.page.introduction
       }
+      page "installation" {
+        title     = "Installation"
+        reference = resource.page.installation
+      }
     }
   }
 }
