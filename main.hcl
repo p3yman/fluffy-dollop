@@ -14,6 +14,10 @@ resource "lab" "main" {
         title     = "Installation"
         reference = resource.page.installation
       }
+      page "untitled-page-1" {
+        title     = "Untitled page 1"
+        reference = resource.page.untitled-page-1
+      }
     }
   }
 }
