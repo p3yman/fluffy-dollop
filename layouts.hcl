@@ -12,5 +12,13 @@ resource "layout" "single_panel" {
   }
 }
 
+
 resource "layout" "layout_1" {
+  column {
+    width = "100"
+    tab "terminal1" {
+      title  = "terminal1"
+      target = resource.terminal.terminal1
+    }
+  }
 }
