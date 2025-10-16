@@ -6,9 +6,9 @@ resource "lab" "main" {
   content {
     chapter "__default" {
       title = "Default"
-      page "untitled-page-1" {
-        title     = "Untitled page 1"
-        reference = resource.page.untitled-page-1
+      page "introduction" {
+        title     = "Introduction"
+        reference = resource.page.introduction
       }
     }
   }
