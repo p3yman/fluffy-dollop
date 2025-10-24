@@ -22,6 +22,7 @@ resource "lab" "main" {
       page "untitled-page-333" {
         title     = "Untitled page 333"
         reference = resource.page.untitled-page-333
+        layout    = resource.layout.layout_abc
       }
     }
   }
