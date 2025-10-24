@@ -17,5 +17,8 @@ resource "lab" "main" {
         layout    = resource.layout.layout_abc
       }
     }
+    chapter "untitled-chapter-1" {
+      title = "Untitled chapter 1"
+    }
   }
 }
