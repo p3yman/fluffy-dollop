@@ -14,3 +14,6 @@ resource "layout" "single_panel" {
 
 resource "layout" "layout_b" {
 }
+
+resource "layout" "layout_abc" {
+}
