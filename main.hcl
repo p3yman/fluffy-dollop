@@ -13,6 +13,7 @@ resource "lab" "main" {
       page "untitled-page-2" {
         title     = "Untitled page 2"
         reference = resource.page.untitled-page-2
+        layout    = resource.layout.layout_abc
       }
     }
   }
