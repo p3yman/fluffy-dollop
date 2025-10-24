@@ -12,8 +12,6 @@ resource "layout" "single_panel" {
   }
 }
 
-resource "layout" "layout_b" {
-}
 
 
 resource "layout" "layout_abc" {
@@ -25,6 +23,22 @@ resource "layout" "layout_abc" {
     }
     instructions {
       title = "Instructions"
+    }
+  }
+}
+
+resource "layout" "layout_b" {
+  column {
+    width = "50"
+    instructions {
+      title = "Instructions"
+    }
+  }
+  column {
+    width = "50"
+    tab "terminal1" {
+      title  = "terminal1"
+      target = resource.terminal.terminal1
     }
   }
 }
