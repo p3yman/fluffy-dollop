@@ -9,6 +9,7 @@ resource "lab" "main" {
       page "untitled-page-1" {
         title     = "Untitled page 1"
         reference = resource.page.untitled-page-1
+        layout    = resource.layout.layout_b
       }
       page "untitled-page-2" {
         title     = "Untitled page 2"
