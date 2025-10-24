@@ -7,3 +7,8 @@ resource "page" "untitled-page-2" {
   title = "Untitled page 2"
   file  = "instructions/__default/untitled-page-2.md"
 }
+
+resource "page" "untitled-page-333" {
+  title = "Untitled page 333"
+  file  = "instructions/untitled-chapter-1/untitled-page-333.md"
+}
